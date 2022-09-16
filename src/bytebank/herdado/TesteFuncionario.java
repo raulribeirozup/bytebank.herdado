@@ -8,6 +8,11 @@ public class TesteFuncionario {
 		System.out.println(funcionario.getBonificacao());
 		Gerente gerente = new Gerente("lua", "222.222.222-22", 1200);
 		System.out.println(gerente.getBonificacao());
+		
+		ControleBonificacao cBon = new ControleBonificacao();
+		cBon.registra(funcionario);
+		cBon.registra(gerente);
+		System.out.println(cBon.getSoma());
 	}
 
 }
