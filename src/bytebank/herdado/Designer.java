@@ -7,6 +7,6 @@ public class Designer extends Funcionario {
 	}
 	
 	public double getBonificacao() {
-		return super.getBonificacao() + 100;
+		return 100;
 	}
 }
