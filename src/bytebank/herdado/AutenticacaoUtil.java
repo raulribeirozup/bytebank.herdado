@@ -10,7 +10,7 @@ public class AutenticacaoUtil {
 
 	public boolean autentica(int senha) {
 		if (this.senha == senha) return true;
-		return false; 
+		return false;
 	}
 	
 }
